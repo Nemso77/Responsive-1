@@ -1,0 +1,271 @@
+header{
+	margin-top: 70px;
+}
+.main-container{
+	margin: 0 auto;
+	max-width: 1060px;
+	width: 100%;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.minimo-text{
+	font-size: 30px;
+	font-family: 'Inconsolata', monospace;
+}
+.navigation-li{
+	margin-left: 100px;
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+}
+.fa-bars{
+	font-size: 14px;
+	display: none;
+}
+.img{
+	margin-top: 70px;
+	width: 100%;
+}
+.section-photodiary{
+	padding-top: 65px;
+}
+.container{
+	max-width: 900px;
+	width: 100%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+.photodiary{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+}
+.photdiary-text{
+	font-size: 14px;
+	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+}
+.text-header{
+	margin-top: 30px;
+}
+.text-header-text{
+	font-size: 30px;
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+}
+.div-article{
+	margin-top: 30px;
+}
+.article{
+	font-size: 14px;
+	color: #777777;
+	font-family: 'Playfair Display', serif;
+}
+.comment{
+	font-size: 14px;
+	color: #b4ad9e;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 55px;
+}
+.section2{
+	padding-bottom: 120px;
+}
+.box{
+	width: 420px;
+	margin-top: 80px;
+}
+.lifestyle{
+	color: #b4ad9e;
+	font-size: 14px;
+	font-family: 'Ubuntu', sans-serif;
+	margin: 30px 0;
+}
+.lorem{
+	color: #626262;
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	margin-top: 40px;
+}
+.middle-section{
+	padding: 70px 0;
+	background: #f0f0f0;
+}
+.center{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.input-header{
+	width: 400px;
+}
+.input-header-text{
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	color: #3e3e3e;
+}
+.input-div{
+	display: flex;
+	overflow: hidden;
+	width: 100%;
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	border-bottom: 1px solid #000000;
+	padding-top: 90px;
+	padding-bottom: 5px;
+}
+.inputer{
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	border-bottom: 1px solid #000000;
+}
+.input-div input{
+	width: 100%;
+	border: none;
+	outline: none;
+	background: none;
+}
+.send-icon{
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+}
+.load-more-section{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.load-more{
+	display: inline-block;
+	margin-top: 165px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #626262;
+	padding: 20px 35px;
+	margin-bottom: 200px;
+}
+.load-more-text{
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+footer{
+	background: #f0f0f0;
+}
+.footer-text-div{
+	padding: 40px 0
+}
+.fonts-div{
+	display: flex;
+}
+.footer-text{
+	font-size: 18px;
+	font-family: 'Playfair Display', serif;
+}
+.follow{
+	font-size: 18px;
+	font-family: 'Playfair Display', serif;
+}
+.active{
+	font-size: 20px;
+	color: #626262;
+	margin-left: 15px;
+}
+@media (max-width: 1024px){
+	.main-container{
+		width: 768px;
+	}
+	.container{
+		width: 600px;
+		display: flex;
+		justify-content: center;
+	}
+	.photodiary{
+		display: flex;
+		justify-content: center;
+	}
+}
+@media(max-width: 785px){
+	.main-container{
+		width: 480px;
+		padding: 0 10px;
+	}
+	.container{
+		width: 320px;
+	}
+	.navigation{
+		display: none;
+	}
+	.fa-bars{
+		display: block;
+	}
+	.box-img{
+		width: 350px;
+	}
+	.text-header-text{
+		font-size: 24px;
+	}
+}
+@media (max-width: 497px){
+	.main-container{
+		width: 320px;
+	}
+	.container{
+		width: 160px;
+	}
+	.text-header-text{
+		font-size: 10px;
+	}
+	.article{
+		font-size: 5px;
+	}
+	.box{
+		width: 160px;
+	}
+	.box-img{
+		width: 160px;
+	}
+	.photdiary-text {
+		font-size: 6px;
+	}
+	.comment{
+		font-size: 6px;
+	}
+	.lifestyle{
+		font-size: 6px;
+	}
+	.lorem{
+		font-size: 5px;
+	}
+	.center{
+		width: 160px;
+	}
+	.input-header-text{
+		font-size: 10px;
+	}
+	.input-text{
+		font-size: 5px;
+	}
+	.load-more {
+    margin-top: 60px;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: #626262;
+    padding: 10px 15px;
+    margin-bottom: 60px;
+	}
+	.load-more-text {
+		font-size: 5px;
+	}
+	.footer-text{
+		font-size: 10px;
+	}
+	.follow{
+		font-size: 10px;
+	}
+	.active{
+		font-size: 10px;
+	}
+}
